@@ -5,4 +5,5 @@ variable "aws_region" {
 
 variable "bucket_name" {
   type = string
+  default = "terraform-jenkins-bucket-2026-dev"
 }
